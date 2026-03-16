@@ -18,3 +18,7 @@ window.addEventListener("deviceorientation", event => {
   document.getElementById("gamma").textContent = event.gamma.toFixed(2);
 
 });
+
+button.addEventListener("click", () => {
+  window.addEventListener("deviceorientation", handleOrientation);
+});
