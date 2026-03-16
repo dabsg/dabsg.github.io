@@ -19,6 +19,6 @@ window.addEventListener("deviceorientation", event => {
 
 });
 
-button.addEventListener("click", () => {
+ document.getElementById("test").addEventListener("click", () => {
   window.addEventListener("deviceorientation", handleOrientation);
 });
